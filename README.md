@@ -45,7 +45,6 @@ import vGenericForm from "v-generic-form-vue2";
 Vue.use(vGenericForm);
 
 export default {
-  name: "Form",
   computed: {
     fields() {
       return [
