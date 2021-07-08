@@ -1,4 +1,4 @@
-# v-Generic-Form-vue2
+# v-generic-form-vue2
 
 #### Installing
 
@@ -69,3 +69,7 @@ export default {
 };
 </script>
 ```
+
+#### Adding validation
+
+v-generic-form-vue2
