@@ -72,4 +72,23 @@ export default {
 
 #### Adding validation
 
->v-generic-form-vue2 uses [validate.js](https://validatejs.org/) behind the scenes for validation so refer to it for adding custom rules or finding all available validators.
+> v-generic-form-vue2 uses **_[validate.js](https://validatejs.org/)_** behind the scenes for validation so refer to it for adding custom rules or finding all available validators.
+
+Validation is as simple as passing a rules object to the field in your schema.
+
+```js
+[
+  {
+    name: "input",
+    placeholder: "input",
+    label: "input label",
+    type: "text",
+    rules: {
+      required: true,
+      exclusion: {
+        within: ["Not Supported Value 1", "Not Supported Value 2"],
+        message: "^We don't support %{value} right now, sorry",
+      }
+  }
+]
+```
