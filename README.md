@@ -2,13 +2,13 @@
 
 #### Installing
 
-Using npm: 
+Using npm:
 
 ```
 npm i v-generic-form-vue2
 ```
 
-Using yarn: 
+Using yarn:
 
 ```
 yarn add v-generic-form-vue2
@@ -72,4 +72,4 @@ export default {
 
 #### Adding validation
 
-v-generic-form-vue2
+>v-generic-form-vue2 uses [validate.js](https://validatejs.org/) behind the scenes for validation so refer to it for adding custom rules or finding all available validators.
