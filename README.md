@@ -5,13 +5,13 @@
 Using npm: 
 
 ```bash
-$ npm i v-generic-form-vue2
+npm i v-generic-form-vue2
 ```
 
 Using yarn: 
 
 ```bash
-$ yarn add v-generic-form-vue2
+yarn add v-generic-form-vue2
 ```
 
 #### Getting Started
