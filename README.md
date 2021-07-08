@@ -25,7 +25,7 @@ import vGenericForm from "v-generic-form-vue2";
 Vue.use(vGenericForm);
 ```
 
-###### Basic Example :
+##### Basic Example :
 
 ```jsx
 <template>
