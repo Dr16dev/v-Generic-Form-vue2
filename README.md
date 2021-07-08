@@ -86,7 +86,7 @@ fields() {
           rules: {
             required: true,
             exclusion: {
-              within: [1, 5],
+              within: ["Not Supported Value 1", "Not Supported Value 2"],
               message: "^We don't support %{value} right now, sorry",
             },
           },
