@@ -77,18 +77,21 @@ export default {
 Validation is as simple as passing a rules object to the field in your schema.
 
 ```js
-[
-  {
-    name: "input",
-    placeholder: "input",
-    label: "input label",
-    type: "text",
-    rules: {
-      required: true,
-      exclusion: {
-        within: ["Not Supported Value 1", "Not Supported Value 2"],
-        message: "^We don't support %{value} right now, sorry",
-      }
-  }
-]
+fields() {
+      return [
+        {
+          name: "input 1",
+          placeholder: "input 1",
+          label: "input label",
+          type: "text",
+          rules: {
+            required: true,
+            exclusion: {
+              within: [1, 5],
+              message: "^We don't support %{value} right now, sorry",
+            },
+          },
+        },
+      ];
+    },
 ```
