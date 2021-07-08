@@ -4,11 +4,11 @@
 
 Using npm: 
 
-**`$ npm i v-generic-form-vue2`**
+**```$ npm i v-generic-form-vue2```**
 
 Using yarn: 
 
-**`$ yarn add v-generic-form-vue2`**
+**```$ yarn add v-generic-form-vue2```**
 
 #### Getting Started
 
