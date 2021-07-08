@@ -4,13 +4,13 @@
 
 Using npm: 
 
-```bash
+```
 npm i v-generic-form-vue2
 ```
 
 Using yarn: 
 
-```bash
+```
 yarn add v-generic-form-vue2
 ```
 
